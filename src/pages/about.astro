@@ -1,0 +1,190 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="About | Mayuko Hayashi" description="About Mayuko Hayasih">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/at-work.jpg"
+					alt="Jeanine White at work with a colleague"
+				/>
+			</Hero>
+
+				<section>
+				<h2 class="section-title">Download</h2>
+				<div class="content">
+					<p>
+						日本語履歴書は<a href="https://drive.google.com/file/d/1dLZRJp7eEoxcq-4XL_PD-gcbRTHpWqkV/view?usp=share_link" target="blank">こちら</a>からダウンロードできます。
+					</p>
+					<p>
+						You can download my resume <a href="https://drive.google.com/file/d/1fxDqsQZbX48-wurq7i1UMdK6bqsUNbGD/view?usp=share_link" target="_blank">here</a>.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p><b>Skills</b></p>
+					<p>
+						<ul>
+							<li>Leadership / Communication</li>
+							<li>Building high performing teams</li>
+							<li>Motivating highly technical team members</li>
+							<li>Results-oriented</li>
+							<li>Strong research and organization skills</li>
+							<li>Effective task management ability</li>
+							<li>Professional experienced in project management as a Technical Director</li>
+							<li>Ability to provide advice and suggestions from a technical perspective</li>
+							<li>Proficient in rapid prototyping for efficient project development</li>
+							<li>Skilled in client communication and negotiation including conducting meetings and hearing client needs and feedback</li>
+							<li>Self involved and love learning</li>
+						</ul>
+					</p>
+					<br>
+					<p><b>Technical Skills:</b></p>
+						<p>
+							<ul>
+								<li>Proficient in using various OS for development purposes: Windows, Mac, Linux, Ubuntu</li>
+								<li>CI/CD frameworks: Jenkins, CircleCI</li>
+								<li>Container management using Docker and Kubernetes</li>
+								<li>Basic AWS knowledge and professional experience for operating and managing</li>
+								<li>Proficient in version control tool like Git</li>
+								<li>Professional experience in Unity development using C#</li>
+								<li>Professional experience in iOS and Android native app development: Kotlin and Flutter</li>
+								<li>Professional experience in Web application development: React, Node.js, Next.js</li>
+								<li>Professional experienced in upstream processes such as requirement definition, design and estimate for web and mobile app development</li>
+								<li>Creating requirement and functional spec document for web and mobile app development</li>
+								<li>Waterfall / Agile methodologies</li>
+								<li>Test-Driven Development (TDD)</li>
+							</ul>
+						</p>
+						<br>
+					<p><b>Clear communication & Quick implement</b></p>
+						<p>
+							"<i>I trust her ability to present reliable information sources for her decisions.</i>"<br>
+								- Producer: Mr. Hashida.
+						</p>
+						<p>
+							"<i>She always clarify what engineers should do next and what the ultimate goal is.</i>"<br>
+								- Engineer in Vietnam: Mr. Trong Nhan.
+						</p>
+						<br>
+						<p><b>Good learner & educator</b></p>
+						<p>[Good Leaner]</p>
+							<ul>
+								<li>Learned Unity/C# after joining the company and immediately applied it to practical work.</li>
+								<li>Enjoys acquiring new technologies.</li>
+								<li>Love to read official documentation.</li>
+							</ul>
+							<p><b>[Good Educator]</b></p>
+								<ul>
+									<li>Achieved 0% turnover rate for new employees.</li>
+									<li>Organized and managed joint study sessions between design and development teams.</li>
+									<li>Successfully planned and executed numerous study sessions, resulting in positive feedback from new employees who developed self-driven learning skills.</li>
+								</ul>
+						<br>
+						<p><b>Languages</b></p>
+								<ul>
+									<li>License of teaching in Japanese, First language.</li>
+									<li>Fluent in English; speaking, reading and writing.  Working as a English teacher/mentor in Japan for more than 10 years.</li>
+									<li>Fundamental skills in German and Swedish.</li>
+								</ul>
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Education</h2>
+				<div class="content">
+					<p><b>Hochschule für Bildende Künste Braunschweig, Braunschweig Germany (2013 to 2014)</b></p>
+					<p>Master of Fine Art</p>
+					<ul>
+						<li>Exhibit solo and group show in Braunschweig and Berlin.</li>
+						<li>Professional experience as an artist.</li>
+						<li>Helped and managed classes.</li>
+						<li>All techniques were self-taught and applied to my art works.</li>
+					</ul>
+					<br>
+					<p><b>RMIT University, Melbourne Australia (2006 to 2010)</b></p>
+					<p>Bachelor of Fine Art(Photography)</p>
+					<ul>
+						<li>Received the International photography Awards.</li>
+						<li>and some other Awards</li>
+						<li>Received the exchanging program in Tallinn, Estonia.</li>
+						<li>Solo exhibit and group show in Melbourne, New Castle and Sydney.</li>
+						<li>Professional experience for photo and video photography.</li>
+						<li>Learned softwares such as FinalCut and Adobe products.</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
