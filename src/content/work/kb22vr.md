@@ -14,6 +14,7 @@ tags:
 ## About the project
 
 **VR Interactive Artwork for Karachi Biennale 2022 Exhibition.**
+
 **Collaboration with DJ, Digital Artist, and Textile Designer. Expressed the concepts of life, death, and their interconnections through the representation of the heart and heartbeat.**
 
 ### Accomplishments

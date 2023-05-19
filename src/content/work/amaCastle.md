@@ -4,7 +4,7 @@ publishDate: 2023-02-28 00:00:00
 img: /assets/amaImage1.png
 img_alt: Amagasaki Castle VR contents
 description: |
-  VR/VIVE, VIVE Tracker(without head mount display)) games with a space themed design in Amagasaki-castle.
+  Family-Friendly VR/VIVE, VIVE Tracker(without head mount display) game contents with a space themed design in paid-area of Amagasaki-castle.
 tags:
   - VR
   - VIVE
@@ -14,7 +14,14 @@ tags:
 ## About the project
 
 **Four digital contents to be installed within the grounds of Amagasaki Castle, the last castle built in the Heisei, located in Amagasaki City, Hyogo Prefecture.**
+
 **The design focused on enabling visitors to experience the history and facts of Amagasaki Castle through the interactive content.**
+
+- Interactive VR Gameplay: Develop interactive gameplay elements within the VR experience that are suitable for families. This can include puzzles, sword game, and shooting that revolve around the castle's history and cultural significance.
+- VR Tracker Integration: Utilize VR Tracker technology to enhance the gameplay experience. This allows visitors to physically move within the designated area while wearing the VR headset, making the experience more interactive and immersive.
+- Educational Content: Incorporate educational elements into the VR content to provide visitors with historical facts, anecdotes, and information about Amagasaki Castle. This can be presented through visual cues, audio narration, or text overlays to enrich the learning experience.
+- Multiplayer Functionality: Include multiplayer features in the game content, allowing families or groups to play together and collaborate on challenges within the virtual environment. This promotes social interaction and creates a shared experience among visitors.
+
 
 ### Accomplishments
 

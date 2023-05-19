@@ -2,5 +2,5 @@
 
 ### todo
 
-- [] aa
-- [] aa
+- [] Crotchet/knit(for constant update)
+- [] Upload using Vercel
