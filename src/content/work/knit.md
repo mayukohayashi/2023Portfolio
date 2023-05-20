@@ -1,34 +1,12 @@
 ---
 title: Knit
 publishDate: 1999-07-30 00:00:00
-img: /assets/knit2.png
-img_alt: knit hair band
+img: /assets/sennanImage1.png
+img_alt: Sennan-city digital signage
 description: |
-   My Knit works
+   Digital signage promotion project for tourism in Sennan-city
 tags:
-  - Knit
-  - Craft
+  - Digital signage
+  - Web
+  - local administration
 ---
-
----
-![cardigan](/assets/knit3.png)
-
-- 棒編みになれるため
-- とりあえず伴侶の体は隠れるくらいでかいブランケットを作りたい
-- あまり糸や用途不明糸を減らしたい
-という思いから出来た。
-かわいい。部屋に色が増える。気に入っている。
-
-![cardigan](/assets/knit2.png)
-後ろにかぎ針三角巾。（バブーシュカ？）
-手前のが、なんかパンみたいなヘアバンド。
-みつあみヘアバンド、もうちょっときつめでないとな・・・。
-ゴム糸（透明）とかも編み込んだので製麺する気になれない。
-でも使ってないからなあ・・・冬寒いとき耳温めるために使った方がいいなとおもう。
-でもまじで頭にパンのっけとるみたいになる・・・。
-
-![cardigan](/assets/knit1.png)
-このセーター実は未完のまま放置中。
-最後の閉じ方が伸縮性ないやり方すぎて、肩が通らない……。
-解いて、ちょっと大きめにして、伸縮性のある閉じ方でやらねばならない。
-放置している・・・・・。
